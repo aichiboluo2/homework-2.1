@@ -1,9 +1,10 @@
 # homework-2.1
-cd /home/test/share <br>
-wc -l test_command.gtf  #查看文件行数 <br>  
-8<br>
-wc -c test_command.gtf  #查看文件字数  <br> 
-636 <br>
+### 查看文件行数&字数
+` cd /home/test/share `<br>
+`wc -l test_command.gtf `<br>
+`8 test_command.gtf`<br>
+`wc -c test_command.gtf`<br> 
+`636 test_command.gtf`<br>
 grep 'CDS' file_name       #显示匹配上 'CDS' 的所有行
 
 grep -w 'gene' test_command.gtf    # 必须与整个字匹配 <br>
